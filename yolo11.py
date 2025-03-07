@@ -11,7 +11,7 @@ model = YOLO("yolo11n.yaml")
 # Train the model
 model.train(
     data="data.yaml",  # Path to data.yaml
-    epochs=1,         # Adjust based on need
+    epochs=100,         # Adjust based on need
     imgsz=600,         # Image size
     device=device,     # Use GPU if available
     batch=16,          # Adjust batch size based on GPU memory

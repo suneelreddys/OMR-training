@@ -1,4 +1,4 @@
-train: C:\Users\ReNot\Desktop\model_training\images\train
-val: C:\Users\ReNot\Desktop\model_training\images\val
+train: /home/cloud/OMR-training/images/train
+val: /home/cloud/OMR-training/images/val
 nc: 5 # Number of classes
 names: ["0", "1", "2", "3","4"]  
